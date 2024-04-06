@@ -1,0 +1,30 @@
+const healthTopics = [
+  {
+    title: "Exercise and Fitness",
+    description: "Learn about the importance of regular exercise and staying active for overall health and fitness. Discover different types of exercises, from cardio to strength training, and their benefits. Understand how exercise can improve heart health, boost mood, and increase energy levels."
+  },
+  {
+    title: "Nutrition and Diet",
+    description: "Explore the role of nutrition in maintaining a healthy diet and how it impacts overall well-being. Dive into topics such as macronutrients (carbohydrates, proteins, fats), micronutrients (vitamins, minerals), and their sources. Understand the importance of balanced meals, portion control, and the impact of various diets on health."
+  },
+  {
+    title: "Mental Health",
+    description: "Understand the significance of mental health, stress management, and strategies for emotional well-being. Learn about common mental health disorders such as anxiety and depression, and how to recognize their signs. Discover coping mechanisms, mindfulness practices, and therapy options to promote mental wellness."
+  },
+  {
+    title: "Sleep Hygiene",
+    description: "Discover the importance of good sleep hygiene and its impact on physical and mental health. Learn about the stages of sleep, the circadian rhythm, and factors that affect sleep quality. Explore tips for creating a sleep-friendly environment, establishing a bedtime routine, and addressing sleep disorders."
+  },
+  {
+    title: "Preventive Care",
+    description: "Learn about preventive healthcare practices such as regular check-ups, vaccinations, and screenings. Understand the importance of early detection in preventing diseases and conditions. Explore recommended immunizations for different age groups, screenings for cancer and other diseases, and lifestyle changes for disease prevention."
+  },
+  {
+    title: "Hydration",
+    description: "Explore the benefits of staying hydrated and the importance of water for overall health. Understand how hydration affects bodily functions, from digestion to cognitive function. Learn about recommended daily water intake, signs of dehydration, and tips for staying hydrated throughout the day."
+  },
+  {
+    title: "Stress Management",
+    description: "Discover techniques and strategies for managing stress in everyday life. Learn about the physical and mental effects of stress on the body. Explore mindfulness practices, relaxation techniques, and stress-reducing activities such as yoga and meditation."
+  }
+];
