@@ -10,7 +10,7 @@ const ChatRoom = () => {
 
     const fetchMessages = async () => {
         try {
-            const response = await fetch('http://localhost:5001/messages');
+            const response = await fetch('https://final-projectapi.onrender.com/messages');
             const data = await response.json();
             setMessages(data);
         } catch (error) {
@@ -24,7 +24,7 @@ const ChatRoom = () => {
         }
 
         try {
-            await fetch('http://localhost:5001/messages', {
+            await fetch('https://final-projectapi.onrender.com/messages', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
