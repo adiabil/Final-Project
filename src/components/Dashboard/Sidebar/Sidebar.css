@@ -1,0 +1,37 @@
+.sidebar {
+    background-color: #707070;
+    position: fixed;
+    height: 100vh;
+    width: 250px; /* Adjust the width as necessary */
+    top: 0;
+    left: 0; /* Aligns the sidebar to the left */
+    overflow-x: hidden; /* Prevents horizontal scroll */
+    font-family: sans-serif;
+    font-weight: 500;
+    z-index: 1000; /* Ensures it's above other content */
+}
+
+/* Ensure list items do not extend outside the sidebar */
+.sidebar li {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+    white-space: nowrap; /* Keeps the text from wrapping */
+}
+
+/* Hover effects */
+.desh-logout:hover, .sidebar li:hover {
+    display: inline-block;
+    transform: scale(1.1); /* Use transform scale for better performance */
+}
+
+.sidebar li svg {
+    margin-right: 18px;
+}
+
+.desh-logout {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    transition: 0.3s ease-in-out;
+}

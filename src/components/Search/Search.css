@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-layout {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Three columns with equal width */
+  gap: 2rem; /* Adjust the gap between items as needed */
+}
+
+h5 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.under-title{
+    font-size: 17px;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: -5px;
+}
+
+
+.item {
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 4px 8px -1px rgb(0 0 0 / 0.07),
+    0 2px 12px -1px rgb(0 0 0 / 0.05);
+}
+
+.content {
+  padding: 10px;
+  margin-top: 8px;
+}
